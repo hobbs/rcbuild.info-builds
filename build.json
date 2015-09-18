@@ -1,18 +1,25 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "ReadyMadeRC/ZMR-250",
+    "esc": "Rotorgeeks/RG20",
+    "motor": "Cobra/CM-2206-2100kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/5x4x3-FG-DD",
+      "HQProp/5x4.5-FG-BN"
+    ],
+    "arm": "",
+    "battery": [
+      "Tattu/4S-1800mAh-75C",
+      "Turnigy/nano-tech-1800mah-4S-65~130C-Lipo-Pack"
+    ],
+    "osd": "ReadyToFlyQuads/Micro-MinimOSD",
+    "receiver": "FrSky/D4R-II",
+    "flightcam": "SurveilZone/Sony-960H-CCD-Effio-V-800TVL-Ultra-WDR",
+    "hqcam": "RunCam/HD",
+    "videotx": "Aomway 200mw 5.8GHz",
+    "blackbox": "MultiRotorMania/Flight-Data-Logger",
+    "voltagereg": "Pololu/D24V6F5"
+  },
+  "version": 1
 }
